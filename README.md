@@ -10,21 +10,21 @@ Since the port is set to 3000, the API will be available at *http:localhost:3000
 <br>
 API Routes - (Route -> Endpoints)<br>
 `/api/auth`<br>
-*/api/auth/login*  LOGIN<br>
-*/api/auth/singup*  SINGUP<br>
+*/api/auth/login*  --- LOGIN<br>
+*/api/auth/singup*  --- SINGUP<br>
 
 `/api/post`<br>
-*/api/post/new*  NEW POST<br>
-*/api/post/fetch*  FETCH POSTS, POSSIBLY FOR HOME PAGE<br>
-*/api/post/p/:postid*  GET SPECIFIC POST (takes postid as URL parameter)<br>
-*/api/post/updatepost*  UPDATE POST    <br>
-*/api/post/deletepost/:postid*  DELETE POST (takes postid as URL parameter)<br>
-*/api/post/addcomment*  ADD COMMENT<br>
-*/api/post/remotecomment/:cid*  REMOVE COMMENT<br>
+*/api/post/new*   --- NEW POST<br>
+*/api/post/fetch*  --- FETCH POSTS, POSSIBLY FOR HOME PAGE<br>
+*/api/post/p/:postid*  --- GET SPECIFIC POST (takes postid as URL parameter)<br>
+*/api/post/updatepost*  --- UPDATE POST    <br>
+*/api/post/deletepost/:postid*  --- DELETE POST (takes postid as URL parameter)<br>
+*/api/post/addcomment*  --- ADD COMMENT<br>
+*/api/post/remotecomment/:cid*  --- REMOVE COMMENT<br>
 
 `/api/action`<br>
-*/api/action/follow*  FOLLOW USER<br>
-*/api/action/like*  LIKE POST<br>
+*/api/action/follow*  --- FOLLOW USER<br>
+*/api/action/like*  --- LIKE POST<br>
 
 
 
