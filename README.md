@@ -20,7 +20,7 @@ API Routes - (Route -> Endpoints)<br>
 */api/post/updatepost*  --- UPDATE POST    <br>
 */api/post/deletepost/:postid*  --- DELETE POST (takes postid as URL parameter)<br>
 */api/post/addcomment*  --- ADD COMMENT<br>
-*/api/post/remotecomment/:cid*  --- REMOVE COMMENT<br>
+*/api/post/remotecomment/:cid*  --- REMOVE COMMENT (takes comment id as a url parameter)<br>
 
 `/api/action`<br>
 */api/action/follow*  --- FOLLOW USER<br>
