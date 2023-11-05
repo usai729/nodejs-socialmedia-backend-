@@ -1,4 +1,4 @@
-# nodejs-travelog-backend-api
+# nodejs-socialmedia-backend-api
 
 Welcome to the Node.js Travelog Backend API repository! This backend API is designed to support the Travelog application, a platform for sharing and exploring travel experiences.
 
