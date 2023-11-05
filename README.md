@@ -26,6 +26,14 @@ API Routes - (Route -> Endpoints)<br>
 */api/action/follow*  --- FOLLOW USER<br>
 */api/action/like*  --- LIKE POST<br>
 
+`/api/message`<br>
+*/api/message/newchat*  --- CREATE CHAT<br>
+*/api/message/sendmsg*  --- SEND MESSAGE<br>
+*/api/message/chats*  --- GET ALL CHATS<br>
+*/api/message/c/:id*  --- GET MESSAGES AND CHAT OF A CHAT ID (id in parameter is the chat_id)
+
+
+
 
 
 
